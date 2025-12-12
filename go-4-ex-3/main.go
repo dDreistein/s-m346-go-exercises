@@ -5,7 +5,6 @@ import "fmt"
 
 // TODO: implement the function computeQuadraticFormula
 func computeQuadraticFormula(a, b, c float64) []float64 {
-	// Calculate the discriminant
 	discriminant := b*b - 4*a*c
 
 	var solutions []float64
